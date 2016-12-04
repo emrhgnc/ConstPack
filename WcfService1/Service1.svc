@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Service="ConstPackServiceLib.KullaniciServis" Factory="System.ServiceModel.Activation.WebServiceHostFactory"%>

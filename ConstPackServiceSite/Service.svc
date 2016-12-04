@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Service="ConstPackServiceLib.ConstPackResponse" Factory="System.ServiceModel.Activation.WebServiceHostFactory"%>

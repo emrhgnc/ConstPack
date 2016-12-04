@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2df11db36a4f478a89a2b3d7b89b4cff" Name="Diagram1">
+        <EntityTypeShape EntityType="DB_CONSTPACKModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_CONSTPACKModel.tbl_Blok" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_CONSTPACKModel.tbl_Is" Width="1.5" PointX="9.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_CONSTPACKModel.tbl_Is_Grubu" Width="1.5" PointX="5.25" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_CONSTPACKModel.tbl_Is_Havuzu" Width="1.5" PointX="7.5" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_CONSTPACKModel.tbl_Kat" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_CONSTPACKModel.tbl_Kullanici" Width="1.5" PointX="7.5" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_CONSTPACKModel.tbl_Mahal" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_CONSTPACKModel.tbl_Mahal_Tipi" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_CONSTPACKModel.tbl_Rol" Width="1.5" PointX="5.25" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_CONSTPACKModel.tbl_Urun" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="DB_CONSTPACKModel.FK_tbl_Kat_tbl_Blok" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_CONSTPACKModel.FK_tbl_Is_tbl_Is_Havuzu" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_CONSTPACKModel.FK_tbl_Is_tbl_Kullanici" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_CONSTPACKModel.FK_tbl_Is_tbl_Mahal" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_CONSTPACKModel.FK_tbl_Is_Havuzu_tbl_Is_Grubu" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_CONSTPACKModel.FK_tbl_Urun_tbl_Kat" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_CONSTPACKModel.FK_tbl_Kullanici_tbl_Rol" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_CONSTPACKModel.FK_tbl_Mahal_tbl_Mahal_Tipi" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_CONSTPACKModel.FK_tbl_Mahal_tbl_Urun" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DB_CONSTPACKModel.tbl_Proje" Width="1.5" PointX="0.75" PointY="7.75" />
+        <AssociationConnector Association="DB_CONSTPACKModel.FK_tbl_Blok_tbl_Proje" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
